@@ -10,9 +10,8 @@
 [![LinkeDin](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=5527992863484&text=Ol%C3%A1%20Gustavo!)
 
 
-![Gustavo GitHub stats](https://github-readme-stats.vercel.app/api?username=xgordhacker&show_icons=true&theme=dark)
 ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xgordhacker&theme=blue-green)
-
+![Gustavo GitHub stats](https://github-readme-stats.vercel.app/api?username=xgordhacker&show_icons=true&theme=dark)
 
 <div style="display: inline_block"><br>
  <img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
