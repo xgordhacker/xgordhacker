@@ -2,7 +2,6 @@
 ##  Olá! Eu sou o Gustavo. 🖐️
 ### Seja bem vindo ao meu GitHub! 👨‍💻
 <br>
-<br>
 
 ### Me conheça melhor nas redes abaixo.
 
@@ -30,6 +29,6 @@
 ### APAIXONADO POR TECNOLOGIA.
 
 
-### Meu site:
+### Meu portifólio:
 
 - [Portifólio](https://portifoliodevcosta2022.firebaseapp.com/)
