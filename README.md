@@ -11,6 +11,9 @@
 
 
 ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xgordhacker&theme=blue-green)
+[![LinkeDin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-costa-b24427250/)
+[![LinkeDin](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/developercosta/?igshid=YmMyMTA2M2Y%3D)
+[![LinkeDin](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=5527992863484&text=Ol%C3%A1%20Gustavo!)
 ![Gustavo GitHub stats](https://github-readme-stats.vercel.app/api?username=xgordhacker&show_icons=true&theme=dark)
 
 <div style="display: inline_block"><br>
