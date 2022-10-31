@@ -11,7 +11,7 @@
 
 
 ![Gustavo GitHub stats](https://github-readme-stats.vercel.app/api?username=xgordhacker&show_icons=true&theme=dark)
-https://github-readme-stats.vercel.app/api/top-langs/?username={https://github.com/xgordhacker}&theme=blue-green
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xgordhacker&theme=blue-green)
 
 
 <div style="display: inline_block"><br>
