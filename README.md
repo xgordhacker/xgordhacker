@@ -23,7 +23,7 @@
 
 ### APAIXONADO POR TECNOLOGIA.
 
-![Snake animation](https://github.com/ThattoDev/ThattoDev/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/ThattoDev/gustavocw/blob/output/github-contribution-grid-snake.svg)
 
 ### Meu portifólio:
 
