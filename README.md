@@ -23,7 +23,8 @@
 
 ### APAIXONADO POR TECNOLOGIA.
 
+![Snake animation](https://github.com/ThattoDev/ThattoDev/blob/output/github-contribution-grid-snake.svg)
 
 ### Meu portifólio:
 
-- [Portifólio](https://portifoliodevcosta2022.firebaseapp.com/)
+- [Portifólio](https://terminalgustavo.netlify.app/)
