@@ -4,7 +4,6 @@
     "editor.lineHeight": 2,
     "javascript.suggest.autoImports": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.rulers": [80, 120],
     "extensions.ignoreRecommendations": true,
     "typescript.tsserver.log": "off",
     "files.associations": {
@@ -20,9 +19,6 @@
       "vitest.config.e2e.ts": "vite",
       ".env.example": "gear"
     },
-    "tailwindCSS.experimental.classRegex": [
-      ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
-    ],
     "editor.parameterHints.enabled": false,
     "editor.renderLineHighlight": "gutter",
     "cSpell.language": "en,pt",
@@ -39,7 +35,6 @@
       "FIG_NEW_SESSION": "1"
     },
     "workbench.editor.labelFormat": "short",
-    "editor.fontLigatures": true,
     "emmet.includeLanguages": {
       "javascript": "javascriptreact"
     },
@@ -71,7 +66,9 @@
     "editor.accessibilitySupport": "off",
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit"
     },
@@ -83,7 +80,6 @@
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
     "workbench.productIconTheme": "fluent-icons",
-    "editor.fontFamily": "JetBrains Mono",
     "gitlens.codeLens.authors.enabled": false,
     "editor.tabSize": 2,
     "security.workspace.trust.untrustedFiles": "newWindow",
@@ -224,5 +220,16 @@
       "WEBPUSH"
     ],
     "workbench.colorTheme": "Min Dark",
-    "workbench.statusBar.visible": false
+    "workbench.statusBar.visible": false,
+    "editor.codeLensFontFamily": "Fira Code",
+    "files.autoSave": "afterDelay",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.confirmSync": false
   }
