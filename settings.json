@@ -69,9 +69,6 @@
     "terminal.integrated.fontFamily": "Fira Code",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
-    },
     "eslint.validate": [
       "javascript",
       "javascriptreact",
@@ -223,13 +220,11 @@
     "workbench.statusBar.visible": false,
     "editor.codeLensFontFamily": "Fira Code",
     "files.autoSave": "afterDelay",
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "git.autofetch": true,
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+      "editor.codeActionsOnSave": {
+        "quickfix.biome": "explicit",
+        "source.organizeImports.biome": "explicit"
+      },
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "git.confirmSync": false
   }
