@@ -1,24 +1,38 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontSize": 14,
-    "editor.lineHeight": 2,
+    "editor.lineHeight": 1.8,
     "javascript.suggest.autoImports": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "extensions.ignoreRecommendations": true,
     "typescript.tsserver.log": "off",
+    "editor.stickyScroll.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
     "files.associations": {
       ".env.*": "dotenv",
       ".prettierrc": "json",
-      "*.css": "css"
+      "*.css": "css",
+      ".dev.vars": "dotenv"
     },
     "symbols.files.associations": {
       "*.module.ts": "nest",
       "*.guard.ts": "typescript",
       "*.spec.ts": "ts-test",
       "*.e2e-spec.ts": "ts-test",
+      "*.mock.ts": "ts-test",
       "vitest.config.e2e.ts": "vite",
+      ".env.development.local": "gear",
+      ".env.test.local": "gear",
+      ".env.local": "gear",
       ".env.example": "gear"
     },
+    "tailwindCSS.experimental.classRegex": [
+      [
+        "tv\\(([^)]*)\\)",
+        "[\"'`]([^\"'`]*).*?[\"'`]"
+      ],
+      "class:\\s*?[\"'`]([^\"'`]*).*?,"
+    ],
     "editor.parameterHints.enabled": false,
     "editor.renderLineHighlight": "gutter",
     "cSpell.language": "en,pt",
@@ -31,15 +45,19 @@
       "editor.formatOnSave": true
     },
     "typescript.suggest.autoImports": true,
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
     "terminal.integrated.env.osx": {
       "FIG_NEW_SESSION": "1"
     },
     "workbench.editor.labelFormat": "short",
+    "editor.fontLigatures": true,
     "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
+      "javascript": "javascriptreact",
+      "mdx": "javascriptreact"
     },
     "emmet.syntaxProfiles": {
-      "javascript": "jsx"
+      "javascript": "jsx",
+      "mdx": "jsx"
     },
     "cSpell.enableFiletypes": [
       "!asciidoc",
@@ -66,9 +84,10 @@
     "editor.accessibilitySupport": "off",
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Fira Code",
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
     "eslint.validate": [
       "javascript",
       "javascriptreact",
@@ -77,6 +96,7 @@
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
     "workbench.productIconTheme": "fluent-icons",
+    "editor.fontFamily": "JetBrains Mono",
     "gitlens.codeLens.authors.enabled": false,
     "editor.tabSize": 2,
     "security.workspace.trust.untrustedFiles": "newWindow",
@@ -90,8 +110,8 @@
       // "node_modules": true
     },
     "workbench.iconTheme": "symbols",
-    "update.mode": "start",
-    "terminal.integrated.gpuAcceleration": "off",
+    "update.mode": "manual",
+    "terminal.integrated.gpuAcceleration": "on",
     "terminal.integrated.defaultProfile.osx": "fish",
     "[jsonc]": {
       "editor.defaultFormatter": "vscode.json-language-features"
@@ -99,7 +119,7 @@
     "[json]": {
       "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "window.commandCenter": true,
+    "window.commandCenter": false,
     "git.openRepositoryInParentFolders": "always",
     "symbols.hidesExplorerArrows": false,
     "[javascript]": {
@@ -109,6 +129,7 @@
     "workbench.editor.empty.hint": "hidden",
     "update.showReleaseNotes": false,
     "security.promptForLocalFileProtocolHandling": false,
+    "workbench.activityBar.location": "hidden",
     "apc.activityBar": {
       "position": "bottom",
       "hideSettings": true,
@@ -125,6 +146,8 @@
         "x": 11,
         "y": 10
       },
+      "opacity": 1,
+      "vibrancy": "dark",
       "frame": false
     },
     "apc.header": {
@@ -133,6 +156,7 @@
     "apc.listRow": {
       "height": 24
     },
+    "apc.font.family": "Inter",
     "apc.stylesheet": {
       ".title-label > h2": "display: none",
       ".editor-actions": "display: none",
@@ -143,20 +167,22 @@
       ".monaco-list-row": "border-radius: 4px;",
       ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
     },
-    "editor.scrollbar.vertical": "visible",
+    "editor.scrollbar.vertical": "hidden",
     "explorer.sortOrder": "foldersNestsFiles",
     "explorer.fileNesting.patterns": {
-      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-      "tailwind.config.js": "tailwind.config*, postcss.config*",
+      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+      "tailwind.config.*": "tailwind.config*, postcss.config*",
       ".env.local": ".env*",
       ".env": ".env*"
     },
     "explorer.fileNesting.enabled": true,
     "cSpell.userWords": [
+      "automations",
       "bootcamp",
       "chakra",
       "checkin",
       "checkins",
+      "cloudflare",
       "clsx",
       "Codegen",
       "datadog",
@@ -169,12 +195,15 @@
       "Fastify",
       "feedbackwidget",
       "ffprobe",
+      "gamificada",
       "Hasher",
+      "hono",
       "Hono",
       "ilike",
       "IUGU",
       "jamjuree",
       "jupiter",
+      "ksuid",
       "liveblocks",
       "LIVEBLOCKS",
       "Marguerita",
@@ -182,6 +211,7 @@
       "mixpanel",
       "monaco",
       "nestjs",
+      "nivo",
       "omni",
       "Omni",
       "Onboarded",
@@ -190,6 +220,7 @@
       "postgresql",
       "prefetch",
       "reactflow",
+      "retriable",
       "roboto",
       "rocketseat",
       "rotion",
@@ -214,17 +245,34 @@
       "unmark",
       "upsert",
       "Usuario",
+      "webm",
       "WEBPUSH"
     ],
-    "workbench.colorTheme": "Min Dark",
     "workbench.statusBar.visible": false,
-    "editor.codeLensFontFamily": "Fira Code",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "keyword.other.dotenv",
+          "settings": {
+            "foreground": "#FF000000"
+          }
+        }
+      ]
+    },
+    "workbench.layoutControl.enabled": false,
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Min Dark",
+    "workbench.preferredLightColorTheme": "Min Light",
+    "gitlens.advanced.messages": {
+      "suppressIntegrationRequestTimedOutWarning": true
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "files.autoSave": "afterDelay",
-    "git.autofetch": true,
-      "editor.codeActionsOnSave": {
-        "quickfix.biome": "explicit",
-        "source.organizeImports.biome": "explicit"
-      },
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "git.confirmSync": false
+    "git.autofetch": true
   }
